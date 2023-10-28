@@ -129,16 +129,64 @@ li {
     cursor: pointer;
 }
 
+
+.parmums_text {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: orange;
+    font-size: 28px;
+
+    text-shadow: 2px 5px 4px rgba(0, 0, 0, 1);
+    font-weight: bold;
+}
+
+.parmums_image {
+    display: flex;
+    margin-top: 1rem;
+    position: relative;
+    justify-content: center;
+}
+
+.parmums_image img {
+    border-radius: 10px;
+}
+
+.parmums_grid {
+    position: absolute;
+    display: flex;
+    bottom: -5rem;
+    width: 50%;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 5px solid orange;
+    flex-wrap: wrap;
+}
+
+.parmums_card {
+    display: flex;
+    flex: min-content;
+    align-items: center;
+    gap: 1rem;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icons{
+    font-size: 50px;
+
+}
+
 .traineris-container {
     display: grid;
     margin-top:300px;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
 
-    grid-column-gap: 0;
-    column-gap: 0;
-    grid-gap: 0;
-    gap: 0;
 
 }
 
